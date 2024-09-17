@@ -1,0 +1,6 @@
+Bill=input("What is your bill?\n")
+percent=input("how many percent?\n")
+newbill=(int(Bill)/100*int(percent))
+div=input("how many person to split\n")
+finalbill=newbill/int(div)
+print(finalbill)
